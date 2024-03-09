@@ -5,12 +5,11 @@ import App from './App';
 import { BrowserRouter, Route, Routes } from "react-router-dom" 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-         root.render(
-            <BrowserRouter>
+root.render(
+   <BrowserRouter>
         <Routes>
-        <Route path="/:id/:name/:saldo/:usercomp" element= {<App /> }/>
+                 <Route path="/:id/:name/:saldo/:usercomp" element= {<App /> }/>
         </Routes>
-        </BrowserRouter>
-         
-         ) 
+    </BrowserRouter>
 
+)
