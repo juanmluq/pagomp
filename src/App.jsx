@@ -21,7 +21,7 @@ const App = () => {
 
 const handleClick = () => {
     setIsLoading(true);
-    fetch(`https://backmonedas-production.up.railway.app/create_preference/${id}/${name}/${saldo * 1000}/${usercomp}`, {
+    fetch(`https://preferenciamp-production.up.railway.app/create_preference/${id}/${name}/${saldo * 1000}/${usercomp}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
